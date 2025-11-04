@@ -3,7 +3,9 @@ languageCode = 'pt-br'
 title = 'EduLabs'
 theme = "nightfall"
 
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'
-
+[menu]
+	[[menu.main]]
+	identifier = "home"
+	name = "Edu'Labs"
+	url = "/"
+	weight = 1
