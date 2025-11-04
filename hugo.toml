@@ -1,0 +1,9 @@
+baseURL = 'https://example.org/'
+languageCode = 'pt-br'
+title = 'EduLabs'
+theme = "nightfall"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
