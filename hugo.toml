@@ -1,0 +1,56 @@
+baseURL = 'https://eduardodocarmo.com.br/'
+locale = 'pt-br'
+title = 'Eduardo do Carmo'
+theme = 'rusty-typewriter'
+
+[params]
+  summaryLength = 1
+
+[params.rtwt]
+  sidePane = true
+  countPageItems = 7
+  searchPath = 'search'
+
+  [params.rtwt.home]
+    showBio = true
+    showAuthorImg = true
+    sidePaneTags = true
+    showFeatured = true
+    showRecent = true
+    hideRecentWhenFeatured = true
+    countRecent = 5
+
+  [params.rtwt.side.home]
+    sidePaneSticky = false
+    taxonomies = ['tags']
+    countTaxonomy = 6
+
+  [params.rtwt.side.list]
+    sidePaneSticky = false
+
+  [params.rtwt.side.single]
+    sidePaneSticky = true
+    showDetails = true
+    showTableOfContents = true
+    showAttachments = true
+    showRelated = true
+    countRelated = 5
+
+[related]
+  includeNewer = true
+  [[related.indices]]
+    name = 'tags'
+    weight = 100
+
+[taxonomies]
+  tag = 'tags'
+
+[[menus.main]]
+  name = 'Posts'
+  pageRef = '/posts'
+  weight = 1
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
