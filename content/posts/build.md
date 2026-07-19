@@ -3,6 +3,7 @@ date = '2026-07-18T23:28:11-03:00'
 draft = false
 title = 'Build in Public: Um app de mensagens no terminal'
 tags = ["buildInPublic", "Tecnologia", "Comunicação"]
+summary = 'Construindo um TUI de mensageria'
 +++
 
 ## Qual o objetivo?
