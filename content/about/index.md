@@ -6,4 +6,4 @@ title = 'Hi! Eduardo'
   list = "never"
 +++
 
-Escrevo sobre coisas que acho interessante.
+Escrevo sobre coisas que acho interessante. Opto por não passar meus textos por IA, parte de escrever é demonstrar as falhas que tenho como autor e humano, seja minha personalidade e forma que trato meu texto.
